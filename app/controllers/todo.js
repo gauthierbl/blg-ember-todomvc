@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.ObjectController.extend({
   isCompleted: function(key, value) {
-    // what is this?
+    // get the model we want to reference
     var model = this.get('model');
 
     if (value === undefined) {
