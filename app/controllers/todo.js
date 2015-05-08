@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
-export default Ember.ObjectController.extend({
+export default Ember.Controller.extend({
+
   actions: {
     editTodo: function() {
       this.set('isEditing', true);
@@ -15,7 +16,7 @@ export default Ember.ObjectController.extend({
         this.get('model').save();
       }
     },
-    
+
     removeTodo: function() {
       var todo = this.get('model');
       todo.deleteRecord();
