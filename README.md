@@ -1,6 +1,8 @@
 # Blg-ember-todomvc
 
-This is a my code from the [TodoMVC in EmberCLi](https://www.youtube.com/watch?v=tonV3G2cPrA) video walk through by [ryanlabouve](https://github.com/ryanlabouve/todomvc-embercli).
+This is a my code from the [TodoMVC in Ember CLI](https://www.youtube.com/watch?v=tonV3G2cPrA) video walk through by [ryanlabouve](https://github.com/ryanlabouve/todomvc-embercli). I got some help for updating to Ember.js 2.0 compatible
+from [The tech co-founder](http://www.thetechcofounder.com/getting-started-with-ember-js-using-ember-cli/)
+blog ([code](https://github.com/brownie3003/ember-cli-todo-mvc)) which also has other good Ember.js tutorials.
 
 ## Prerequisites
 
