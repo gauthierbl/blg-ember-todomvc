@@ -6,7 +6,8 @@ export default Ember.Route.extend({
       return todo.get('isCompleted');
     });
   },
-  renderTemplate: function(controller) {
-    this.render('todos/index', {controller: controller});
+  
+  renderTemplate: function(controller, model) {
+    this.render('todos.index', { model: model });
   }
 });

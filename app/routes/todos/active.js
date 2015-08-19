@@ -7,7 +7,7 @@ export default Ember.Route.extend({
     });
   },
 
-  renderTemplate: function(controller) {
-    this.render('todos/index', {controller: controller});
+  renderTemplate: function(controller, model) {
+    this.render('todos.index', { model: model });
   }
 });
